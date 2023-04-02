@@ -12,13 +12,6 @@ Runs:
  For Test Create ---> C:\sample-test\
  
  Sample Run
- 
-  Test Coverage : 
- <p align="center">
-![image description](src/images/Capture2.PNG)
-</p>
- 
+ ![Alt text](./src/images/Capture2.PNG?raw=true "Optional Title")
  Test Coverage : 
- <p align="center">
-![image description](src/images/Capture1.PNG)
-</p>
+ ![Alt text](./src/images/Capture1.PNG?raw=true "Optional Title")
