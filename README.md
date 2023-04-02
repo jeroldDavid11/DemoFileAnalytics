@@ -17,4 +17,4 @@ Runs:
   
 
  Test Coverage : 
-![Alt text](./src/images/Capture2.PNG?raw=true "Optional Title")
+![Alt text](./src/images/Capture1.PNG?raw=true "Optional Title")
