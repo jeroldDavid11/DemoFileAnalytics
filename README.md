@@ -11,10 +11,14 @@ Runs:
  Process Item Auto Create --> C:\myfiles\proccesed\
  For Test Create ---> C:\sample-test\
  
- Sample Run :
-  ![Alt text](./src/images/Capture2.PNG?raw=true "Optional Title")
-
-  
-
+ Sample Run
+ 
+  Test Coverage : 
+ <p align="center">
+![image description](src/images/Capture2.PNG)
+</p>
+ 
  Test Coverage : 
-![Alt text](./src/images/Capture1.PNG?raw=true "Optional Title")
+ <p align="center">
+![image description](src/images/Capture1.PNG)
+</p>

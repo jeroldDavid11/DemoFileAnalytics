@@ -11,14 +11,11 @@ import java.util.Map;
 import java.util.Scanner;
 
 import com.example.demo.fileApp.model.FileInfo;
+import com.example.demo.fileApp.util.ConstantVaraibles;
 
 public class FileServiceImpl extends AFileService{
 	
-    // The file extension to check
-    private final String fileExtension = ".txt";
-    //file will be moved Directory 
-    private final String fileDirectory = "C:/myfiles/proccesed/";
-    
+
 	@Override
 	public Map<String, FileInfo> getFileExtrasction(File directory) {
 		
@@ -69,7 +66,7 @@ public class FileServiceImpl extends AFileService{
         Path source = Paths.get(directory + "\\" + fileName);
         System.out.println(source);
         // Path to the new directory where the file will be moved
-        Path targetDir = Paths.get(fileDirectory);
+        Path targetDir = Paths.get(ConstantVaraibles.FILE_DIRECTORY);
         
         try {
             // Create the target directory if it doesn't exist
@@ -91,7 +88,7 @@ public class FileServiceImpl extends AFileService{
 
 	private boolean getFileExtension(File fileName) {
 		  // Check if the file has the desired extension
-        if (fileName.getName().endsWith(fileExtension)) { 
+        if (fileName.getName().endsWith(ConstantVaraibles.FILE_EXTENSION)) { 
 	        return true;
         }
 	        return false;
